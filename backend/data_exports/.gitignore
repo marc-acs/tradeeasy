@@ -1,0 +1,3 @@
+data_exports/*
+!data_exports/samples/
+!data_exports/.gitignore

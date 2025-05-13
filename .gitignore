@@ -1,0 +1,91 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+/frontend/build/
+/frontend/dist/
+/backend/dist/
+
+# Log files
+*.log
+backend/logs/
+frontend/logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Data export files
+# /backend/data_exports/ is handled by its own .gitignore file
+
+# Process ID files
+*.pid
+backend.pid
+frontend.pid
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Production config
+/backend/config/production.js
+
+# Temporary files
+.tmp/
+.temp/
+/backend/tmp/
+/frontend/tmp/
+
+#Typescript
+/typescript/lib/
+
+# Cache
+.eslintcache
+.cache/
+.parcel-cache/
+
+# Generated API documentation
+/api-docs/
+
+# Miscellaneous
+*.csv
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+.typescript.js
+.tsserver.js
+.typescriptServices.js
+.tsserverlibrary.js
+.2.pack
+.index.pack
+.0.pack
+.index.pack.old
+
+# Secrets and keys
+*.pem
+*.key
+*.cert

@@ -1,0 +1,111 @@
+[
+  {
+    "type": "weather",
+    "severity": 4,
+    "title": "Drought in Argentina's agricultural regions",
+    "description": "Severe drought conditions in key agricultural regions of Argentina are impacting soybean and wheat production. Expected crop yields could be 30-40% lower than normal.",
+    "affectedHsCodes": ["120190", "100199"],
+    "affectedRegions": ["Argentina", "South America"],
+    "source": "National Weather Service",
+    "sourceUrl": "https://example.com/drought-report",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-07-30T00:00:00.000Z",
+    "expectedPriceImpact": {
+      "direction": "increase",
+      "percentage": 15,
+      "confidence": 85
+    },
+    "mitigationSteps": ["Diversify suppliers", "Secure forward contracts", "Monitor weather forecasts"],
+    "isActive": true
+  },
+  {
+    "type": "political",
+    "severity": 3,
+    "title": "Trade tensions between US and China",
+    "description": "Ongoing trade tensions between US and China may lead to new tariffs on agricultural products, particularly affecting soybeans and meat exports.",
+    "affectedHsCodes": ["120190", "020130"],
+    "affectedRegions": ["United States", "China", "Global Markets"],
+    "source": "International Trade Commission",
+    "sourceUrl": "https://example.com/trade-tension-report",
+    "startDate": "2025-01-15T00:00:00.000Z",
+    "expectedPriceImpact": {
+      "direction": "volatile",
+      "confidence": 70
+    },
+    "mitigationSteps": ["Monitor policy developments", "Explore alternative markets", "Hedge currency exposure"],
+    "isActive": true
+  },
+  {
+    "type": "regulatory",
+    "severity": 3,
+    "title": "New EU import regulations for beef products",
+    "description": "The European Union is implementing stricter regulations on beef imports, requiring additional certification and inspections for all beef products.",
+    "affectedHsCodes": ["020130"],
+    "affectedRegions": ["European Union", "Global Beef Exporters"],
+    "source": "EU Commission",
+    "sourceUrl": "https://example.com/eu-beef-regulations",
+    "startDate": "2025-06-01T00:00:00.000Z",
+    "expectedPriceImpact": {
+      "direction": "increase",
+      "percentage": 8,
+      "confidence": 90
+    },
+    "mitigationSteps": ["Prepare for new certification requirements", "Adjust supply chain logistics", "Train staff on new protocols"],
+    "isActive": true
+  },
+  {
+    "type": "supply",
+    "severity": 2,
+    "title": "Mining equipment shortage impacts aluminum production",
+    "description": "Global shortage of specialized mining equipment is causing delays in aluminum ore extraction, potentially affecting aluminum alloy production and prices.",
+    "affectedHsCodes": ["760120"],
+    "affectedRegions": ["Global Markets"],
+    "source": "Global Mining Review",
+    "sourceUrl": "https://example.com/mining-equipment-shortage",
+    "startDate": "2025-02-10T00:00:00.000Z",
+    "endDate": "2025-08-15T00:00:00.000Z",
+    "expectedPriceImpact": {
+      "direction": "increase",
+      "percentage": 5,
+      "confidence": 65
+    },
+    "mitigationSteps": ["Secure long-term supply contracts", "Explore alternative materials", "Monitor equipment market developments"],
+    "isActive": true
+  },
+  {
+    "type": "economic",
+    "severity": 3,
+    "title": "Rising fuel costs affecting shipping rates",
+    "description": "Global increase in fuel prices is leading to higher shipping costs for all commodities, with a particularly significant impact on bulky agricultural products and machinery parts.",
+    "affectedHsCodes": ["120190", "100199", "843149"],
+    "affectedRegions": ["Global Markets"],
+    "source": "International Shipping Association",
+    "sourceUrl": "https://example.com/shipping-costs-report",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "expectedPriceImpact": {
+      "direction": "increase",
+      "percentage": 10,
+      "confidence": 80
+    },
+    "mitigationSteps": ["Optimize shipping routes", "Consider alternative transportation methods", "Bundle shipments for efficiency"],
+    "isActive": true
+  },
+  {
+    "type": "other",
+    "severity": 1,
+    "title": "Labor strikes at major Argentine ports",
+    "description": "Intermittent labor strikes at key Argentine ports are causing short-term delays in exports, particularly affecting agricultural commodities.",
+    "affectedHsCodes": ["120190", "100199", "020130"],
+    "affectedRegions": ["Argentina"],
+    "source": "Port Authority News",
+    "sourceUrl": "https://example.com/port-strikes",
+    "startDate": "2025-05-10T00:00:00.000Z",
+    "endDate": "2025-05-25T00:00:00.000Z",
+    "expectedPriceImpact": {
+      "direction": "volatile",
+      "confidence": 60
+    },
+    "mitigationSteps": ["Monitor strike updates", "Adjust shipping schedules", "Use alternative ports where possible"],
+    "isActive": false
+  }
+]
